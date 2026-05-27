@@ -51,9 +51,18 @@
     --accent-orange-light: #75501B;
 }
 
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--background-primary);
+    color: var(--content-primary);
+}
+
 .container {
-    width: min(100% - 2rem, 1200px);
+    width: min(100% - 2rem, 871px);
+    display: grid;
     margin-inline: auto;
+    padding: 5rem;
 }
 
 .title {
@@ -73,5 +82,4 @@
 
     background-color: var(--content-tertiary);
     border-radius: 0.5rem;
-    
 }

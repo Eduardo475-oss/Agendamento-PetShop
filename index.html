@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agendamento PetShop</title>
  
-    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="index.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/svg" href="/assets/dog.svg"> 
 </head>
 <body>
     <div class="logo">
@@ -20,6 +22,20 @@
         <h1 class="title">Mundo Pet</h1>
     </div>
 
+    <main class="container">
+        <header>
+            <div>
+                <h1>Sua agenda</h1>
+                <sub>Aqui você pode ver todos os clientes e serviços agendados para hoje.</sub>
+            </div>
+
+            <div class="date-wrapper">
+                <img src="/assets/Calendar-Minimalistic--Streamline-Solar.svg" alt="" class="calendar">
+                <input type="date" id="data" name="data">
+                <img src="assets/Icon2.svg" alt="" class="arrow-down">
+            </div>
+        </header>
+    </main>
 
     <script src="main.js"></script>
 </body>
