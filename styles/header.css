@@ -3,11 +3,11 @@ header {
     justify-content: space-between;
 }
 
-header h1 {
+header h2 {
     font: var(--title);
 }
 
-header sub {
+header p {
     font: var(--p-medium);
     color: var(--content-secondary);
 }

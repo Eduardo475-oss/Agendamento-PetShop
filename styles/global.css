@@ -83,3 +83,9 @@ body {
     background-color: var(--content-tertiary);
     border-radius: 0.5rem;
 }
+
+
+.flex {
+    display: flex;
+    gap: 0.5rem;
+}

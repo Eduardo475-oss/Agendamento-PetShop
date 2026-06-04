@@ -22,12 +22,12 @@
         <h1 class="title">Mundo Pet</h1>
     </div>
 
+    <form>
     <main class="container">
-        <form>
             <header>
                 <div>
-                    <h1>Sua agenda</h1>
-                    <sub>Aqui você pode ver todos os clientes e serviços agendados para hoje.</sub>
+                    <h2>Sua agenda</h2>
+                    <p>Aqui você pode ver todos os clientes e serviços agendados para hoje.</p>
                 </div>
                 
                 <div class="date-wrapper">
@@ -38,51 +38,70 @@
             </header>
 
             <div class="scheduled-sessions">
-                <div id="morning" value="morning" class="morning-session">
-                    <img src="/assets/Sun-Fog--Streamline-Solar.svg" alt="">
-                    <h2>Manhã</h2>
-                    <span>09h-12h</span>
+                <div id="morning" value="morning" class="morning-session styles-sessions">
+                    <div class="header">
+                        <div class="flex">
+                            <img src="/assets/sol manhã.svg" alt="">
+                            <h2>Manhã</h2>
+                        </div>
+                        <span>09h-12h</span>
+                    </div>
 
                     <div id="morningschedule" data-id="1" data-period="morning" class="schedule">
                         <p class="time">09:00</p>
-                        <p class="client">Thor/Fernanda Costa</p>
+                        <p class="client">Thor / Fernanda Costa</p>
                         <p class="service">Vacinação</p>
-                        <button class="btn-remove" data-id="1">Remove Agendamento</button>
+                        <button class="btn-remove" data-id="1">Remover Agendamento</button>
                     </div>
-
                 </div>
 
-                <div id="afternoon" value="afternoon" class="afternoon-session">
-                    <img src="/assets/Sun-Fog--Streamline-Solar.svg" alt="">
-                    <h2>Manhã</h2>
-                    <span>09h-12h</span>
+                <div id="afternoon" value="afternoon" class="afternoon-session styles-sessions">
+                    <div class="header">
+                        <div class="flex">
+                            <img src="/assets/sol tarde.svg" alt="">
+                            <h2>Tarde</h2>
+                        </div>   
+                        <span>13h-18h</span>
+                    </div>
 
                     <div id="afternoonschedule" data-id="2" data-period="afternoon" class="schedule">
                         <p class="time">13:00</p>
-                        <p class="client">Mel/João Souza</p>
+                        <p class="client">Mel / João Souza</p>
                         <p class="service">Corte de Unhas</p>
-                        <button class="btn-remove" data-id="2">Remove Agendamento</button>
+                        <button class="btn-remove" data-id="2">Remover Agendamento</button>
                     </div>
 
+                    <div id="afternoonschedule" data-id="2" data-period="afternoon" class="schedule">
+                        <p class="time">13:00</p>
+                        <p class="client">Mel / João Souza</p>
+                        <p class="service">Corte de Unhas</p>
+                        <button class="btn-remove" data-id="2">Remover Agendamento</button>
+                    </div>
                 </div>
 
-                <div id="night" value="night" class="night-session">
-                    <img src="/assets/Sun-Fog--Streamline-Solar.svg" alt="">
-                    <h2>Manhã</h2>
-                    <span>09h-12h</span>
+                <div id="night" value="night" class="night-session styles-sessions">
+                    <div class="header">
+                        <div class="flex">   
+                            <img src="/assets/lua.svg " alt="">
+                            <h2>Noite</h2>
+                        </div>
+                        <span>19h-21h</span>
+                    </div>
 
                     <div id="nightschedule" data-id="3" data-period="night" class="schedule">
                         <p class="time">20:00</p>
-                        <p class="client">Max/Camila Santos</p>
+                        <p class="client">Max / Camila Santos</p>
                         <p class="service">Limpeza de Dentes</p>
-                        <button class="btn-remove" data-id="3">Remove Agendamento</button>
+                        <button class="btn-remove" data-id="3">Remover Agendamento</button>
                     </div>
-
                 </div>
             </div>
-        </form>
-    </main>
-
+        </main>    
+    </form>
+    
+    <button class="sbt-btn style-button">
+        Novo Agendamento
+    </button>
     <script src="main.js"></script>
 </body>
 </html>
