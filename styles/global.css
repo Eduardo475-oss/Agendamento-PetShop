@@ -90,8 +90,8 @@ body {
     gap: 0.5rem;
 }
 
-/* Mobile - até 480px */
-@media (max-width: 480px) {
+/* Mobile - até 360px */
+@media (max-width: 360px) {
     .container {
         width: 100%;
         padding: 1.5rem;
